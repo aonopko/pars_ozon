@@ -12,7 +12,5 @@ req = requests.get(url, headers=headers)
 src = req.text
 
 
-with open("index.html", 'w') as file:
-    file.write(src)
 
 
